@@ -9,19 +9,6 @@
 			<link rel="icon" href="img/icon1.jpg">
  </head>
 <style>
-button{
-background-color: #4CAF50; /* Green */
-border: none;
-color: white;
-padding: 10px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 10px;
-margin: 4px 4px;
-cursor: pointer;
-border-radius: 5px;
-}
 body{
   background:url("img/background.jpeg");
   background-repeat: no-repeat;
@@ -42,13 +29,14 @@ body{
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 20px;
+  padding: 13px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 5px;
 }
 .or{
   text-align: center;
@@ -65,23 +53,19 @@ body{
   box: 20px;
   font-family: times, serif;
 }
-.center{
-  border: 1px white;
-  border-radius: 5px;
-}
 </style>
   <body>
   			<form class="border">
   			<b><h1 class="top"><span class="highlight">Log-In</span> Form</h1>
+     <br>
   			<center><img src="img/icon.png" class="center" with="40" height="40"> <img src="img/instagram.jpeg" class="center" with="40" height="40">  <img src="img/facebook.jpeg" class="center" with="40" height="40">
   			<center><p class="or">Or</p></center></b>
   				<center>
-      <input class="input" type="email" placeholder="  Enter Email" required></input>
-      <input class="input" type="password" placeholder="  Password"></input>
+      <input class="input" type="email" placeholder="  Enter Email" required>
+      <input class="input" type="password" name="Password" placeholder="  Password" id="id_password">
   				<center>
   				<br>
-  				<center><button class="button">Submit</button></center>
-  				</form>
+  				<center><button class="button" onclick="alert('Hi visitor, Thank you for your cooperation')" value="Submit">Submit</button></center>
   				</form>
   				<hr>
   		 <p class="SignUp">Dont have account?</p><a href="https://google.com">Sign up here</a><br>
